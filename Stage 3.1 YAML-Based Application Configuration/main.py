@@ -1,0 +1,17 @@
+from src.settings import settings
+
+print("\nApplication Settings:\n")
+print("Application:", settings.application.name)
+print("Version:", settings.application.version)
+print("Environment:", settings.application.environment)
+print("LLM Provider:", settings.llm.provider)
+print("LLM Model:", settings.llm.model)
+print("LLM Temperature:", settings.llm.temperature)
+print("Embedding Provider:", settings.embedding.provider)
+print("Embedding Model:", settings.embedding.model)
+print("Vector DB:", settings.vector_database.provider)
+print("Collection:", settings.vector_database.collection_name)
+print("Top K:", settings.retrieval.top_k)
+print("Reranking:", settings.retrieval.reranking)
+print("Chunk Size:", settings.chunking.chunk_size)
+print("Chunk Overlap:", settings.chunking.chunk_overlap)

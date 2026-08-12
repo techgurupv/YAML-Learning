@@ -1,0 +1,25 @@
+# Exercise 2 — Lists (lists.yaml)
+skills:
+  - Python
+  - RAG
+  - LangChain
+  - LangGraph
+  - ChromaDB
+
+# Understand as 
+# skills
+#    │
+#    ├── Python
+#    ├── RAG
+#    ├── LangChain
+#    ├── LangGraph
+#    └── ChromaDB
+
+# Equivalent Python
+# skills = [
+#     "Python",
+#     "RAG",
+#     "LangChain",
+#     "LangGraph",
+#     "ChromaDB"
+# ]

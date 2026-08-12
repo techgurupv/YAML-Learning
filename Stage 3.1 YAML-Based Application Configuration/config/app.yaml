@@ -1,0 +1,4 @@
+application:
+  name: Enterprise RAG application
+  version: 1.0
+  environment: development

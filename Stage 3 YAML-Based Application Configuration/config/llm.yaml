@@ -1,0 +1,5 @@
+llm:
+  provider: Groq
+  model: llama-3.1-8b-instant
+  # model: my-new-test-model # changed it for testing sake
+  temperature: 0

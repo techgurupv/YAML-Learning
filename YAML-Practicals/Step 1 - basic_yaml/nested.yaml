@@ -1,0 +1,30 @@
+# Exercise 3 — Nested YAML
+
+developer:
+  name: VeeraSekhar
+  role: AI Engineer
+
+  skills:
+    - Python
+    - RAG
+    - LangChain
+
+  experience:
+    java: 5
+    data_engineering: 8
+
+# Think of it as:
+# developer
+# │
+# ├── name
+# ├── role
+# │
+# ├── skills
+# │   ├── Python
+# │   ├── RAG
+# │   └── LangChain
+# │
+# └── experience
+#     ├── java
+#     └── data_engineering
+

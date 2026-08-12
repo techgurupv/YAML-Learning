@@ -1,0 +1,24 @@
+# simple YAML Configuration demonstration
+
+# Exercise 1 — Key/Value
+name: VeeraSekhar
+age: 35
+role: AI Engineer
+
+# understand the above as below
+# name  → key
+# VeeraSekhar → value
+# Equivalent Python
+# {
+#     "name": "VeeraSekhar",
+#     "age": 35,
+#     "role": "AI Engineer"
+# }
+
+
+# ⚠️ One Very Important YAML Rule
+
+# Indentation matters.
+# Use spaces, not tabs.
+
+# I recommend consistently using 2 spaces.

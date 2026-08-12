@@ -1,0 +1,4 @@
+vector_database:
+  provider: chroma
+  directory: ./chroma_db
+  collection_name: enterprise_knowledge_base

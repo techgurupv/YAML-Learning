@@ -1,0 +1,5 @@
+# This is a configuration file for the retrieval module that contains the retrieval settings for the system. 
+# It specifies the number of top results to retrieve and whether to apply reranking to the results.
+retrieval:
+  top_k: 5
+  reranking: false
