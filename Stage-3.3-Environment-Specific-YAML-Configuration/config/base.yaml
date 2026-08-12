@@ -1,0 +1,28 @@
+application:
+  name: Enterprise RAG application
+  version: "1.0"
+
+llm:
+  provider: Groq
+  temperature: 0
+
+embedding:
+  provider: sentence-transformers
+  model: all-MiniLM-L6-v2
+
+vector_database:
+  provider: chroma
+  directory: ./chroma_db
+  collection_name: enterprise_knowledge_base
+
+retrieval:
+  reranking: false
+
+chunking:
+  strategy: recursive
+  chunk_size: 1000
+  chunk_overlap: 200
+
+logging:
+  level: INFO
+  file: logs/application.log

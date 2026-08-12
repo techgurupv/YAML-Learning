@@ -1,0 +1,11 @@
+application:
+  environment: production
+
+llm:
+  model: llama-3.1-8b-instant
+
+retrieval:
+  top_k: 10
+
+logging:
+  level: WARNING

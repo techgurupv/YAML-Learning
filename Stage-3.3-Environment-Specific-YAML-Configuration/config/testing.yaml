@@ -1,0 +1,8 @@
+application:
+  environment: testing
+
+llm:
+  model: llama-3.1-8b-instant
+
+retrieval:
+  top_k: 3
